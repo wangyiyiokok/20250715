@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图表展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        .chart-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .chart-image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .chart-name {
+            text-align: center;
+            font-weight: bold;
+            color: #444;
+        }
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>生成的图表展示</h1>
+        
+        <div class="gallery">
+            <!-- 图表1 -->
+            <div class="chart-item">
+                <img src="file:///C:/Users/35869/Desktop/生成的图表/图表1.png" alt="图表1" class="chart-image">
+                <div class="chart-name">图表1.png</div>
+            </div>
+            
+            <!-- 图表2 -->
+            <div class="chart-item">
+                <img src="file:///C:/Users/35869/Desktop/生成的图表/图表2.png" alt="图表2" class="chart-image">
+                <div class="chart-name">图表2.png</div>
+            </div>
+            
+            <!-- 图表3 -->
+            <div class="chart-item">
+                <img src="file:///C:/Users/35869/Desktop/生成的图表/图表3.png" alt="图表3" class="chart-image">
+                <div class="chart-name">图表3.png</div>
+            </div>
+            
+            <!-- 图表4 -->
+            <div class="chart-item">
+                <img src="file:///C:/Users/35869/Desktop/生成的图表/图表4.png" alt="图表4" class="chart-image">
+                <div class="chart-name">图表4.png</div>
+            </div>
+            
+            <!-- 图表5 -->
+            <div class="chart-item">
+                <img src="file:///C:/Users/35869/Desktop/生成的图表/图表5.png" alt="图表5" class="chart-image">
+                <div class="chart-name">图表5.png</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
